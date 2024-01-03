@@ -23,19 +23,19 @@
             "url": "mailto:kuraykaraaslan@gmail.com"
         },
         {
-            "network": "Facebook",
-            "username": "kuraykaraaslan",
-            "url": "https://facebook.com/kuraykaraaslan"
-        },
-        {
-            "network": "Twitter",
-            "username": "kuraykaraaslan",
-            "url": "https://twitter.com/kuraykaraaslan"
+            "network": "Website",
+            "username": "Portfolio",
+            "url": "https://kuray.dev"
         },
         {
             "network": "Github",
             "username": "kuraykaraaslan",
             "url": "https://github.com/kuraykaraaslan"
+        },
+        {
+            "network": "Twitter",
+            "username": "kuraykaraaslan",
+            "url": "https://twitter.com/kuraykaraaslan"
         },
         {
             "network": "Linkedin",
