@@ -1,25 +1,15 @@
-# Welcome to Next.js
+# Resume App
 
-This is the most minimal starter for your Next.js project.
+![](static/screenshot.gif)
 
-## Deploy your own
+## Overview
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/examples/hello-world&project-name=hello-world&repository-name=hello-world)
+This is a print-friendly resume app built using React and Next.js. It allows users to create a professional-looking resume easily. The app provides a clean and organized layout suitable for printing.
 
-## How to use
+## Features
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+- **Responsive Design:** Ensures a seamless experience across various devices.
+- **Print-Friendly:** Designed with printing in mind, allowing users to easily print their resumes.
+- **Dynamic Content:** Easily update your resume information through a user-friendly interface.
+- **Technologically Diverse:** Developed using React and Next.js for a modern and efficient web application.
 
-```bash
-npx create-next-app --example hello-world hello-world-app
-```
-
-```bash
-yarn create next-app --example hello-world hello-world-app
-```
-
-```bash
-pnpm create next-app --example hello-world hello-world-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).

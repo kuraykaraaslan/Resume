@@ -1,0 +1,101 @@
+{
+    "basics": {
+        "name": "Kuray Karaaslan",
+        "title": "Software Engineer",
+        "picture": "/images/profile.png",
+        "location": {
+            "city": "Istanbul",
+            "country": "Turkey"
+        }
+    },
+    "profiles": [
+        {
+            "network": "Phone",
+            "username": "kuraykaraaslan",
+            "url": "tel:+905323232323"
+        },
+        {
+            "network": "Mail",
+            "username": "kuraykaraaslan",
+            "url": "mailto:kuraykaraaslan@gmail.com"
+        },
+        {
+            "network": "Facebook",
+            "username": "kuraykaraaslan",
+            "url": "https://facebook.com/kuraykaraaslan"
+        },
+        {
+            "network": "Twitter",
+            "username": "kuraykaraaslan",
+            "url": "https://twitter.com/kuraykaraaslan"
+        },
+        {
+            "network": "Github",
+            "username": "kuraykaraaslan",
+            "url": "https://github.com/kuraykaraaslan"
+        },
+        {
+            "network": "Linkedin",
+            "username": "kuraykaraaslan",
+            "url": "https://linkedin.com/kuraykaraaslan"
+        }
+    ],
+    "about": {
+        "title": "About Me",
+        "description": "Full Stack Developer proficient in PHP, Java, Python, and React. I am dedicated to delivering advanced and efficient solutions. In back-end development, I specialize in crafting robust systems using PHP and Java, ensuring a seamless interplay of functionality and reliability. On the front end, I leverage React to create immersive interfaces for a compelling user experience."
+    },
+    "github": {
+        "title": "Github",
+        "username": "kuraykaraaslan"
+    },
+    "experiences": {
+        "title": "Experiences",
+        "jobs": [
+            {
+                "company": "kuray.dev",
+                "title": "Software Developer",
+                "location": "Izmir, Turkey",
+                "date": "2022 - Present",
+                "description": "I am working as a full stack developer. I am developing web applications using PHP, Java, Python, React."
+            }
+        ]
+    },
+    "hackerrank": {
+        "title": "HackerRank",
+        "username": "kuraykaraaslan"
+    },
+    "codeacademy": {
+        "title": "CodeAcademy",
+        "username": "kuraykaraaslan"
+    },
+    "stackexchange": {
+        "title": "StackExchange",
+        "id": "17120114"
+    },
+    "education": {
+        "title": "Education",
+        "schools": [
+            {
+                "name": "patika.dev",
+                "location": "Istanbul, Turkey",
+                "degree": "Course",
+                "major": "Full Stack Web Development",
+                "date": "2022 - now"
+            },
+            {
+                "name": "Istanbul University",
+                "location": "Istanbul, Turkey",
+                "degree": "Bachelor of Science",
+                "major": "Information Management Systems",
+                "date": "2021 - now"
+            },
+            {
+                "name": "Dokuz Eylul University",
+                "location": "Izmir, Turkey",
+                "degree": "Bachelor of Engineering",
+                "major": "Structural Engineering",
+                "date": "2015 - 2021"
+            }
+        ]
+    }
+}
