@@ -12,4 +12,11 @@ This is a print-friendly resume app built using React and Next.js. It allows use
 - **Print-Friendly:** Designed with printing in mind, allowing users to easily print their resumes.
 - **Dynamic Content:** Easily update your resume information through a user-friendly interface.
 - **Technologically Diverse:** Developed using React and Next.js for a modern and efficient web application.
+- **One File Config** Editing resume.json file will update the resume.
 
+## ## Integrations 
+
+- [Github](https://github.com/)
+- [CodeAcademy](https://www.codecademy.com/)
+- [HackerRank](https://www.hackerrank.com/)
+- [StackOverflow](https://stackoverflow.com/)
