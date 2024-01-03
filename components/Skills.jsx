@@ -51,20 +51,6 @@ const Skills = (props) => {
     return (
 
         <Card title={resume?.skills?.title}>
-            <div className="grid grid-cols-3 divide-x divide-gray-300  items-center">
-                <div className="flex flex-col items-center p-4">
-                    <h1 className="text-sm font-bold">{backend.length}</h1>
-                    <h1 className="text-sm">Repositories</h1>
-                </div>
-                <div className="flex flex-col items-center p-4">
-                    <h1 className="text-sm font-bold">{frontend.length}</h1>
-                    <h1 className="text-sm">Followers</h1>
-                </div>
-                <div className="flex flex-col items-center p-4">
-                    <h1 className="text-sm font-bold">{other.length}</h1>
-                    <h1 className="text-sm">Following</h1>
-                </div>
-            </div>
             <div className="grid grid-cols-3 divide-gray-300 items-center mt-4 gap-4">
             {skills?.map((skill, index) => (
                 <SkillCard skill={skill} key={index} />

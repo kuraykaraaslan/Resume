@@ -2,3 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@media print {
+    html, body {
+        width: 210mm;
+        height: 297mm;
+    }
+
+    @page:first {
+        size: A4;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    @page {
+        size: A4;
+        margin-top: 50px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        
+    }
+}

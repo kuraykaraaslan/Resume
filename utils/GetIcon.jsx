@@ -19,7 +19,12 @@ import {
     faStar,
     faCaretUp,
     faCaretDown,
-    faX
+    faX,
+    faHeart,
+    faLanguage,
+    faMicrophone,
+    faEarListen,
+    faPen
 } from '@fortawesome/free-solid-svg-icons';
 
 import { 
@@ -74,7 +79,12 @@ const iconMapList = {
     // Default
     CaretUp: faCaretUp,
     CaretDown: faCaretDown,
-    X: faX
+    X: faX,
+    Heart: faHeart,
+    Language: faLanguage,
+    Speaking: faMicrophone,
+    Listening: faEarListen,
+    Writnig: faPen
   
 
 };

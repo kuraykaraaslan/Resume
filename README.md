@@ -13,6 +13,8 @@ This is a print-friendly resume app built using React and Next.js. It allows use
 - **Dynamic Content:** Easily update your resume information through a user-friendly interface.
 - **Technologically Diverse:** Developed using React and Next.js for a modern and efficient web application.
 - **One File Config** Editing resume.json file will update the resume.
+- **Blocks Robots** It disallow the search bots
+- **Avoids Page Breaks** Auto A4 Page fitting
 
 ## Integrations 
 

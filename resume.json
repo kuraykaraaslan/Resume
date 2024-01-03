@@ -6,7 +6,8 @@
         "location": {
             "city": "Istanbul",
             "country": "Turkey"
-        }
+        },
+        "hideCopyright": false
     },
     "profiles": [
         {
@@ -124,6 +125,62 @@
             {
                 "title": "DevOps",
                 "subtitle": "Docker, Kubernetes"
+            }
+        ]
+    },
+    "languages": {
+        "title": "Languages",
+        "items": [
+            {
+                "name": "Turkish",
+                "fluency": "Native"
+            },
+            {
+                "name": "English",
+                "fluency": "Professional",
+                "levels": [
+                    {
+                        "name": "Speaking",
+                        "level": "C2"
+                    },
+                    {
+                        "name": "Writing",
+                        "level": "C2"
+                    },
+                    {
+                        "name": "Listening",
+                        "level": "C2"
+                    }
+                ]
+            },
+            {
+                "name": "German",
+                "fluency": "Beginner",
+                "levels": [
+                    {
+                        "name": "Speaking",
+                        "level": "A1"
+                    },
+                    {
+                        "name": "Writing",
+                        "level": "A1"
+                    },
+                    {
+                        "name": "Listening",
+                        "level": "A1"
+                    }
+                ]
+            }
+        ]
+
+    },
+    "certifications": {
+        "title": "Certifications",
+        "items": [
+            {
+                "title": "Foundational C# With Microsoft",
+                "authority": "Microsoft",
+                "date": "2022"
             }
         ]
     }
