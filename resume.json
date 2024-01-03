@@ -97,5 +97,34 @@
                 "date": "2015 - 2021"
             }
         ]
+    },
+    "skills": {
+        "title": "Skills",
+        "items": [
+            {
+                "title": "PHP",
+                "subtitle": "Laravel, Symfony"
+            },
+            {
+                "title": "Java",
+                "subtitle": "Spring"
+            },
+            {
+                "title": "Python",
+                "subtitle": "Django"
+            },
+            {
+                "title": "Javascript",
+                "subtitle": "React, Node"
+            },
+            {
+                "title": "Databases",
+                "subtitle": "MySQL, noSQL"
+            },
+            {
+                "title": "DevOps",
+                "subtitle": "Docker, Kubernetes"
+            }
+        ]
     }
 }

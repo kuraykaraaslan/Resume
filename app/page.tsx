@@ -6,6 +6,7 @@ import HackerRank from '@/components/HackerRank'
 import CodeAcademy from '@/components/CodeAcademy'
 import StackExchange from '@/components/StackExchange'
 import Education from '@/components/Education'
+import Skills from '@/components/Skills'
 
 export default function Page() {
 
@@ -16,6 +17,7 @@ export default function Page() {
       <ProfileHeader resume={resume} />
       <About resume={resume} />
       <Experiences resume={resume} />
+      <Skills resume={resume} />
       <Education resume={resume} />
       <Github resume={resume} />
       <HackerRank resume={resume} />
