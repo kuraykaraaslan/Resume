@@ -82,7 +82,6 @@ const HackerRank = (props) => {
                     setBadges([]);
                 }
             }).catch(err => {
-                console.log(err);
             }
         );
         
@@ -110,7 +109,6 @@ const HackerRank = (props) => {
                     setCertificates([]);
                 }
             }).catch(err => {
-                console.log(err);
             }
         );
 
@@ -132,7 +130,6 @@ const HackerRank = (props) => {
                 }
             }
         ).catch(err => {
-            console.log(err);
         }
         );
     }
@@ -155,7 +152,7 @@ const HackerRank = (props) => {
                     <h1 className="text-sm">Submissions</h1>
                 </div>
             </div>
-            <div className="grid grid-cols-3 divide-gray-300 items-center mt-4 gap-4">
+            <div className="grid grid-cols-2 lg:grid-cols-3 divide-gray-300 items-center mt-4 gap-4">
                 {badges?.map((badge, index) => (
                     <BadgeCard badge={badge} key={index} />
                 ))}

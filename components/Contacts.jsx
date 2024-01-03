@@ -13,7 +13,7 @@ const ContactCard = (props) => {
     const url = contact?.url;
 
     return (
-        <div className="col-span-1 flex flex-col gap-1 border border-gray-300 rounded-md p-2 bg-gray-50">
+        <div className="col-span-1 flex flex-col gap-1 border border-gray-300 rounded-md p-2 bg-gray-50 ">
             <a href={url} target="_blank" rel="noopener noreferrer">
             <h1 className="text-sm font-bold">
                 <FontAwesomeIcon
@@ -36,7 +36,7 @@ const Contacts = (props) => {
     return (
 
         <Card title={resume?.profiles?.title}>
-            <div className="grid grid-cols-3 divide-gray-300 items-center mt-4 gap-4">
+            <div className="grid grid-cols-2 lg:grid-cols-3 divide-gray-300 items-center items-stretch mt-4 gap-4">
             {contacts?.map((contact, index) => (
                 <ContactCard key={index} contact={contact} />
             ))}

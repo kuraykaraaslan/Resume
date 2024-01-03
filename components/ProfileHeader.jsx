@@ -20,28 +20,28 @@ const iconMapList = {
     Mail: faEnvelope
 };
 
-function iconMap (network) {
+function iconMap(network) {
     if (network in iconMapList) {
         return iconMapList[network];
     }
     return faLink
 }
-    
 
-const ProfileHeader = ( props ) => {
+
+const ProfileHeader = (props) => {
 
     const { basics } = props.resume;
     const profiles = props.resume?.profiles?.items;
 
     return (
         <div className="max-w-2xl min-w-md grid grid-cols-7">
-            <div className="col-span-5 flex flex-col justify-center p-4">
-                <h1 className="text-2xl font-bold max-w-xs">{basics?.name}</h1>
-                <h2 className="text-md text-gray-500 max-w-xs">{basics?.title}</h2>
-                <h3 className="text-xs text-gray-500 max-w-xs">
-                    {basics?.location?.city}, {basics?.location?.country}
-                </h3>
-                <div className="flex flex-row gap-1 mt-1">
+            <div className="col-span-5 flex flex-col justify-end px-4 pb-4">
+                    <h1 className="text-2xl font-bold max-w-xs">{basics?.name}</h1>
+                    <h2 className="text-md text-gray-500 max-w-xs">{basics?.title}</h2>
+                    <h3 className="text-xs text-gray-500 max-w-xs">
+                        {basics?.location?.city}, {basics?.location?.country}
+                    </h3>
+                <div className="flex flex-row gap-1 mt-2">
                     {profiles?.map((profile, index) => (
                         <a
                             href={profile.url}
@@ -58,11 +58,11 @@ const ProfileHeader = ( props ) => {
                     ))}
                 </div>
             </div>
-            <div className="col-span-2 flex justify-center p-4">
+            <div className="col-span-2 flex justify-end p-4">
                 <img
                     src={basics?.picture}
                     alt={basics?.name}
-                    className="rounded-sm w-32 h-32 object-cover"
+                    className="rounded rounded-sm w-32 h-32 object-cover border border-1 border-gray-500"
                 />
             </div>
         </div>

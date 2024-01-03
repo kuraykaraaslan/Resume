@@ -78,7 +78,6 @@ const CodeAcademy = (props) => {
             .then(response => response.json())
             .then(data => {
                 setData(data);
-                console.log(data);
                 setArchivements(data.pageProps.profile.achievements);
                 setCertificates(data.pageProps.profile.certificates);
                 setEnrollments(data.pageProps.profile.enrollments);

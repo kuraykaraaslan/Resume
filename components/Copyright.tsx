@@ -20,7 +20,6 @@ export default function Copyright({
   const [isRemoved, setIsRemoved] = React.useState(false);
 
   function toggleRemoved() {
-    console.log('toggleRemoved');
     setIsRemoved(true);
   }
 
@@ -31,7 +30,7 @@ export default function Copyright({
         <div className="flex justify-between items-center gap-2">
         </div>
           <div className="flex justify-between items-center text-grey-100">
-          <h1 className="text-xs">made with <FontAwesomeIcon icon={GetIcon("Heart")} style={{ width: '1em' }} /> by <a className="text-blue-500" href="https://github.com/kuraykaraaslan/Resume" target="_blank">Resume</a></h1>
+          <h1 className="text-xs">made with <FontAwesomeIcon icon={GetIcon("Heart")} style={{ width: '1em', color: 'red' }} /> with <a className="text-grey" href="https://github.com/kuraykaraaslan/Resume" target="_blank">Resume</a></h1>
 
           
           </div>

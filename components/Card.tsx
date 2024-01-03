@@ -25,7 +25,6 @@ export default function Card({
   }
 
   function toggleRemoved() {
-    console.log('toggleRemoved');
     setIsRemoved(true);
   }
 

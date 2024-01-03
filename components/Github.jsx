@@ -8,8 +8,6 @@ import GetIcon from '@/utils/GetIcon';
 const RepoCard = (props) => {
     const repo = props.repo;
 
-    console.log(repo);
-
     const name = repo?.name;
 
     const stars = repo?.stargazers_count;
@@ -109,7 +107,7 @@ const Github = (props) => {
                     <h1 className="text-sm">Following</h1>
                 </div>
             </div>
-            <div className="grid grid-cols-3 divide-gray-300 items-center mt-4 gap-4">
+            <div className="grid grid-cols-2 lg:grid-cols-3 divide-gray-300 items-center mt-4 gap-4">
             {repos?.map((repo, index) => (
                 <RepoCard repo={repo} key={index} />
             ))}
