@@ -1,10 +1,14 @@
-# Resume App
-
+# Print-friendly Resume App
 ![](static/screenshot.gif)
 
 ## Overview
 
 This is a print-friendly resume app built using React and Next.js. It allows users to create a professional-looking resume easily. The app provides a clean and organized layout suitable for printing.
+
+## Demo
+
+Check out the [Demo](https://resume.kuray.dev/) to explore the features and functionalities.
+
 
 ## Features
 
