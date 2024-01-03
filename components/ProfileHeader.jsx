@@ -30,7 +30,8 @@ function iconMap (network) {
 
 const ProfileHeader = ( props ) => {
 
-    const { basics, profiles } = props.resume;
+    const { basics } = props.resume;
+    const profiles = props.resume?.profiles?.items;
 
     return (
         <div className="max-w-2xl min-w-md grid grid-cols-7">

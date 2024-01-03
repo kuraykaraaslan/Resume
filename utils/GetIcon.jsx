@@ -1,15 +1,4 @@
 import { 
-    faFacebookF, 
-    faFacebookMessenger, 
-    faGithub, 
-    faInstagram, 
-    faLinkedinIn, 
-    faSignalMessenger, 
-    faTelegramPlane, 
-    faTiktok, 
-    faWhatsapp, 
-    faXTwitter, 
-    faYoutube,
     faEnvelope, 
     faLink, 
     faPhone,
@@ -37,7 +26,18 @@ import {
     faAngular, 
     faNode, 
     faSwift, 
-    faPhp 
+    faPhp,
+    faTelegramPlane,
+    faWhatsapp,
+    faTiktok,
+    faInstagram,
+    faFacebookMessenger,
+    faSignalMessenger,
+    faYoutube,
+    faGithub,
+    faLinkedinIn,
+    faXTwitter,
+    faFacebookF
 } from '@fortawesome/free-brands-svg-icons';
 
 const iconMapList = {

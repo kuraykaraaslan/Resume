@@ -9,15 +9,17 @@
         },
         "hideCopyright": false
     },
-    "profiles": [
+    "profiles": {
+        "title": "Profiles",
+        "items":[
         {
             "network": "Phone",
-            "username": "kuraykaraaslan",
-            "url": "tel:+905323232323"
+            "username": "+905454545454",
+            "url": "tel:+905454545454"
         },
         {
             "network": "Mail",
-            "username": "kuraykaraaslan",
+            "username": "Mail",
             "url": "mailto:kuraykaraaslan@gmail.com"
         },
         {
@@ -40,7 +42,8 @@
             "username": "kuraykaraaslan",
             "url": "https://linkedin.com/kuraykaraaslan"
         }
-    ],
+    ]
+    },
     "about": {
         "title": "About Me",
         "description": "Full Stack Developer proficient in PHP, Java, Python, and React. I am dedicated to delivering advanced and efficient solutions. In back-end development, I specialize in crafting robust systems using PHP and Java, ensuring a seamless interplay of functionality and reliability. On the front end, I leverage React to create immersive interfaces for a compelling user experience."
@@ -180,7 +183,8 @@
             {
                 "title": "Foundational C# With Microsoft",
                 "authority": "Microsoft",
-                "date": "2022"
+                "date": "2022",
+                "url": "https://www.freecodecamp.org/certification/kuraykaraaslan/foundational-c-sharp-with-microsoft"
             }
         ]
     }

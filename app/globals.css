@@ -25,4 +25,9 @@
         margin-right: 0px;
         
     }
+
+    .nonprintable, .nonprintable *
+    {
+        display: none !important;
+    }
 }

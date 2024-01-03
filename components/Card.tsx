@@ -37,9 +37,9 @@ export default function Card({
         <div className="flex justify-between items-center bg-gray-200">
           <div className="flex justify-between items-center gap-2">
             <h1 className="text-l font-bold">{title || 'Title'}</h1>
-            {url ? <a className="text-sm text-gray-500" href={url} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={GetIcon("External")} style={{ width: '1em' }} /></a> : ''}
+            {url ? <a className="text-sm text-gray-500 nonprintable" href={url} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={GetIcon("External")} style={{ width: '1em' }} /></a> : ''}
           </div>
-          <div className="flex justify-between items-center gap-2">
+          <div className="flex justify-between items-center gap-2 nonprintable">
             <a className="text-sm text-gray-500" onClick={toggleRemoved}><FontAwesomeIcon icon={GetIcon("X")} style={{ width: '1em' }} /></a>
             <a className="text-sm text-gray-500" onClick={toggleExpanded}><FontAwesomeIcon icon={GetIcon(isExpanded ? 'CaretDown' : 'CaretUp')} style={{ width: '1em' }} /></a>
           </div>

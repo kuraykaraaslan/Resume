@@ -15,6 +15,18 @@ This is a print-friendly resume app built using React and Next.js. It allows use
 - **One File Config** Editing resume.json file will update the resume.
 - **Blocks Robots** It disallow the search bots
 - **Avoids Page Breaks** Auto A4 Page fitting
+- **Auto hide for print mode** Interactive Buttons will be hided
+
+## Sections
+- **Basic Infos**
+- **Profiles**
+- **About Me**
+- **Experiences**
+- **Skills**
+- **Education**
+- **Certifications**
+- **Languages**
+- **Integrations**
 
 ## Integrations 
 

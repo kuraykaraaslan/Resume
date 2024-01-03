@@ -8,6 +8,8 @@ import GetIcon from '@/utils/GetIcon';
 const RepoCard = (props) => {
     const repo = props.repo;
 
+    console.log(repo);
+
     const name = repo?.name;
 
     const stars = repo?.stargazers_count;
@@ -15,6 +17,8 @@ const RepoCard = (props) => {
     const watchers = repo?.watchers_count;
 
     const forks = repo?.forks_count;
+
+    const url = repo?.html_url;
 
     if (repo?.description.length > 50) {
         var description = repo?.description.substring(0, 47) + '...';
@@ -26,7 +30,13 @@ const RepoCard = (props) => {
 
     return (
         <div className="col-span-1 flex flex-col items-center gap-1 border border-gray-300 rounded-md p-2 bg-gray-50">
+            <a href={url} target="_blank" rel="noopener noreferrer" className="nonprintable">
+            <div className="flex flex-row justify-between">
             <h1 className="text-sm text-center font-bold">{name}</h1>
+             <FontAwesomeIcon icon={GetIcon('Link')} style={{ width: '1rem', height: '1rem' , marginLeft: '0.5rem', marginTop: '0.2rem'}} 
+                className="nonprintable"/>  
+            </div>
+            </a>
             <h1 className="text-sm text-gray-500 text-center">{description}</h1>
             <div className="flex flex-row gap-2 divide-x divide-gray-400">
                 <FontAwesomeIcon

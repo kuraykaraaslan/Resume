@@ -10,6 +10,7 @@ import Skills from '@/components/Skills'
 import Copyright from '@/components/Copyright'
 import Languages from '@/components/Languages'
 import Certifications from '@/components/Certifications'
+import Contacts from '@/components/Contacts'
 
 
 import type { Metadata } from 'next'
@@ -29,6 +30,7 @@ export default function Page() {
   return (
     <div className="grid grid-row-1 flex flex-col items-center justify-center gap-2 sm:pt-2">
       <ProfileHeader resume={resume} />
+      <Contacts resume={resume} />
       <About resume={resume} />
       <Experiences resume={resume} />
       <Skills resume={resume} />
