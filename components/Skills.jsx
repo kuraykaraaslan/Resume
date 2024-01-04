@@ -51,7 +51,7 @@ const Skills = (props) => {
     return (
 
         <Card title={resume?.skills?.title}>
-            <div className="grid grid-cols-2 lg:grid-cols-3 divide-gray-300 items-center items-stretch  mt-4 gap-4">
+            <div className="grid grid-cols-3 divide-gray-300 items-center items-stretch  mt-4 gap-4">
             {skills?.map((skill, index) => (
                 <SkillCard skill={skill} key={index} />
             ))}

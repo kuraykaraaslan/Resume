@@ -57,7 +57,7 @@ const Languages = (props) => {
     return (
 
         <Card title={resume?.languages?.title}>
-            <div className="grid grid-cols-2 lg:grid-cols-3 divide-gray-300 items-center mt-4 gap-4">
+            <div className="grid grid-cols-3 divide-gray-300 items-center mt-4 gap-4">
                 {languages?.map((lang, index) => (
                     <LanguageCard lang={lang} key={index} />
                 ))}

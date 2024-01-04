@@ -28,7 +28,7 @@ const RepoCard = (props) => {
 
     return (
         <div className="col-span-1 flex flex-col items-center gap-1 border border-gray-300 rounded-md p-2 bg-gray-50">
-            <a href={url} target="_blank" rel="noopener noreferrer" className="nonprintable">
+            <a href={url} target="_blank" rel="noopener noreferrer" className="">
             <div className="flex flex-row justify-between">
             <h1 className="text-sm text-center font-bold">{name}</h1>
              <FontAwesomeIcon icon={GetIcon('Link')} style={{ width: '1rem', height: '1rem' , marginLeft: '0.5rem', marginTop: '0.2rem'}} 
@@ -107,7 +107,7 @@ const Github = (props) => {
                     <h1 className="text-sm">Following</h1>
                 </div>
             </div>
-            <div className="grid grid-cols-2 lg:grid-cols-3 divide-gray-300 items-center mt-4 gap-4">
+            <div className="grid grid-cols-3 divide-gray-300 items-center mt-4 gap-4">
             {repos?.map((repo, index) => (
                 <RepoCard repo={repo} key={index} />
             ))}
