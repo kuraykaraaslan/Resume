@@ -1,7 +1,7 @@
 {
     "basics": {
         "name": "Kuray Karaaslan",
-        "title": "Software Engineer",
+        "title": "Software Developer",
         "picture": "/images/profile.png",
         "location": {
             "city": "Istanbul",
@@ -46,7 +46,7 @@
     },
     "about": {
         "title": "About Me",
-        "description": "Full Stack Developer proficient in PHP, Java, Python, and React. I am dedicated to delivering advanced and efficient solutions. In back-end development, I specialize in crafting robust systems using PHP and Java, ensuring a seamless interplay of functionality and reliability. On the front end, I leverage React to create immersive interfaces for a compelling user experience."
+        "description": "I'm a self-taught full-stack developer with a passion for building things, and I thrive on the challenges of turning innovative ideas into functional and user-friendly applications. My journey in the world of programming has equipped me with a diverse skill set, and I have hands-on experience with technologies such as React, Java, and more."
     },
     "github": {
         "title": "Github",
@@ -56,11 +56,12 @@
         "title": "Experiences",
         "jobs": [
             {
-                "company": "kuray.dev",
-                "title": "Software Developer",
-                "location": "Izmir, Turkey",
-                "date": "2022 - Present",
-                "description": "I am working as a full stack developer. I am developing web applications using PHP, Java, Python, React."
+                "company": "patika.dev",
+                "title": "Full Stack Web Development Course",
+                "location": "Istanbul, Turkey",
+                "date": "2023 - now",
+                "description": "I am currently enrolled in the Full Stack Web Development course at patika.dev. I am learning the fundamentals of web development and honing my skills in HTML, CSS, Javascript, React, Node, and more."
+
             }
         ]
     },
@@ -84,7 +85,7 @@
                 "location": "Istanbul, Turkey",
                 "degree": "Course",
                 "major": "Full Stack Web Development",
-                "date": "2022 - now"
+                "date": "2023 - now"
             },
             {
                 "name": "Istanbul University",
@@ -185,6 +186,16 @@
                 "authority": "Microsoft",
                 "date": "2022",
                 "url": "https://www.freecodecamp.org/certification/kuraykaraaslan/foundational-c-sharp-with-microsoft"
+            },
+            {
+                "title": "Responsive Web Design",
+                "authority": "FreeCodeCamp",
+                "date": "2021"
+            },
+            {
+                "title": "Javascript Algorithms and Data Structures",
+                "authority": "FreeCodeCamp",
+                "date": "2023"
             }
         ]
     }

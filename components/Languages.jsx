@@ -23,7 +23,7 @@ const LanguageCard = (props) => {
                 />
                 {name}</h1>
             <h1 className="text-sm text-gray-500 text-center">{fluency}</h1>
-            <div className="flex flex-row gap-2 divide-x divide-gray-400">
+            <div className="hidden md:flex flex-row gap-2 divide-x divide-gray-400">
                 {levels ? (
                     levels.map((level, index) => (
                         <h1 className="text-sm text-gray-500 text-center pl-1" key={index}>
