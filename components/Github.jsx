@@ -31,12 +31,12 @@ const RepoCard = (props) => {
             <a href={url} target="_blank" rel="noopener noreferrer" className="">
             <div className="flex flex-row justify-between">
             <h1 className="text-sm text-center font-bold">{name}</h1>
-             <FontAwesomeIcon icon={GetIcon('Link')} style={{ width: '1rem', height: '1rem' , marginLeft: '0.5rem', marginTop: '0.2rem'}} 
-                className="nonprintable"/>  
+             <FontAwesomeIcon icon={GetIcon('Link')} style={{ width: '1rem', height: '1rem' , marginLeft: '0.5rem', marginTop: '0.2rem'}}
+                className="hidden md:flex nonprintable"/>  
             </div>
             </a>
             <h1 className="text-sm text-gray-500 text-center">{description}</h1>
-            <div className="flex flex-row gap-2 divide-x divide-gray-400">
+            <div className="hidden md:flex flex-row gap-2 divide-x divide-gray-400">
                 <FontAwesomeIcon
                     icon={GetIcon(language)}
                     className='pt-1'

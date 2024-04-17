@@ -21,7 +21,7 @@ const Job = (props) => {
     return (
         <div className="col-span-12 flex flex-col items-center gap-1 rounded-md py-2 bg-gray-50">
             <div className="flex flex-row justify-between w-full">
-                <h1 className="text-sm text-center font-bold">{name} , <span className="text-gray-500">{location}</span></h1>
+                <h1 className="text-sm text-left font-bold">{name} , <span className="text-gray-500">{location}</span></h1>
                 <h1 className="text-sm text-gray-500 text-center">{date}</h1>
             </div>
             <div className="flex flex-row justify-between w-full">

@@ -25,7 +25,7 @@
         {
             "network": "Website",
             "username": "kuray.dev",
-            "url": "https://kuray.dev"
+            "url": "https://kuray.dev?s=resumeKurayDev"
         },
         {
             "network": "Github",
@@ -46,7 +46,7 @@
     },
     "about": {
         "title": "About Me",
-        "description": "I'm a self-taught full-stack developer with a passion for building things, and I thrive on the challenges of turning innovative ideas into functional and user-friendly applications. My journey in the world of programming has equipped me with a diverse skill set, and I have hands-on experience with technologies such as React, Java, and more."
+        "description": "Self-taught and self-motivated software developer with a diverse portfolio of independent projects. Formerly a structural engineer, I transitioned into software development after three years in construction. Proficient in React and Java, I have honed my skills through hands-on practice and have a strong grasp of industry standards. My engineering background equips me with excellent problem-solving abilities, making me a valuable asset to any development team."
     },
     "github": {
         "title": "Github",
@@ -124,7 +124,7 @@
             },
             {
                 "title": "Databases",
-                "subtitle": "MySQL, noSQL"
+                "subtitle": "MySQL, Postgresql"
             },
             {
                 "title": "DevOps",

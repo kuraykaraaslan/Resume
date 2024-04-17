@@ -23,10 +23,10 @@
         "name": "next"
       }
     ],
-    "baseUrl": "../",
+    "baseUrl": "./",
     "paths": {
       "@/*": [
-        "resume/*"
+        "*"
       ]
     }
   },
