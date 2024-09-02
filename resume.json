@@ -2,9 +2,9 @@
     "basics": {
         "name": "Kuray Karaaslan",
         "title": "Software Developer",
-        "picture": "/images/profile.png",
+        "picture": "/images/profilepicgray.png",
         "location": {
-            "city": "Istanbul",
+            "city": "Izmir",
             "country": "Turkey"
         },
         "hideCopyright": false
