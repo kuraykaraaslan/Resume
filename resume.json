@@ -56,11 +56,11 @@
         "title": "Experiences",
         "jobs": [
             {
-                "company": "patika.dev",
-                "title": "Full Stack Web Development Course",
-                "location": "Istanbul, Turkey",
-                "date": "2023 - now",
-                "description": "I am currently enrolled in the Full Stack Web Development course at patika.dev. I am learning the fundamentals of web development and honing my skills in HTML, CSS, Javascript, React, Node, and more."
+                "company": "Roltek Technology",
+                "title": "Full Stack Developer",
+                "location": "Izmir, Turkey",
+                "date": "2024 - now",
+                "description": "Developed and maintained applications with React, Expressjs and Java. Collaborated with team members to ensure project completion within deadlines. Conducted code reviews and provided feedback to improve code quality."
 
             }
         ]
